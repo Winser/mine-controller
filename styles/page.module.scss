@@ -1,0 +1,25 @@
+.energyListWrapper {
+    margin: 10px;
+
+    .energyList {
+        .energyItem {
+            .energyName {
+                font-weight: bold;
+            }
+
+            .energyValue {
+                font-weight: bold;
+            }
+
+            .energyBar {
+                height: 10px;
+                background: #ccc;
+                .fill {
+                    height: 10px;
+                    background: green;
+                    margin: 5px 0;
+                }
+            }
+        }
+    }
+}
